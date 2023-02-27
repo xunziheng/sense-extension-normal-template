@@ -1,0 +1,14 @@
+{
+  "extension": "{{extension-name}}",
+  "mode": "compile",
+  "output": "./dist",
+  "compile": {
+    "entry": "./src/index.js",
+    "qext": "./src/index.qext",
+    "static": "./static"
+  },
+  "deploy": "desktop",
+  "desktopConfig": {
+    "destination": "{{D:\\...\\Qlik\\Sense\\Extensions}}"
+  }
+}
